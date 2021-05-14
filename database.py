@@ -112,7 +112,3 @@ def deleteFromLikedArtist(idOfAnArtist, login_):
         values = (str(idOfAnArtist), login_)
         object.execute(SQL, values)
         connection.commit()
-
-
-
-# zrobic tak żeby użytkownik nie polubił tej samej piosenki dwa razy
